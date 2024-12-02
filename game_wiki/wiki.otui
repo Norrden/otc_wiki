@@ -15,11 +15,11 @@ WikiItemBox < ScrollablePanel
     image-color: #ffffffff
     margin-top: 15
     
-  Label
+  Button
     id: itemName
     anchors.bottom: parent.bottom
     anchors.horizontalCenter: parent.horizontalCenter
-    margin-bottom: 10
+    margin-bottom: 0
 
 WikiNpcsBox < ScrollablePanel
   border-width: 1
@@ -38,11 +38,11 @@ WikiNpcsBox < ScrollablePanel
     outfit-shader: outfit_default
     margin-top: 5
     
-  Label
+  Button
     id: npcName
     anchors.bottom: parent.bottom
     anchors.horizontalCenter: parent.horizontalCenter
-    margin-bottom: 10
+    margin-bottom: 0
     
 WikiMobBox < ScrollablePanel
   border-width: 1
@@ -61,11 +61,11 @@ WikiMobBox < ScrollablePanel
     outfit-shader: outfit_default
     margin-top: 5
     
-  Label
+  Button
     id: mobName
     anchors.bottom: parent.bottom
     anchors.horizontalCenter: parent.horizontalCenter
-    margin-bottom: 10
+    margin-bottom: 0
     
 ExtrasItem < Panel
   id: extrasItem
